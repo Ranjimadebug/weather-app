@@ -95,3 +95,29 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+@media only screen and (max-width: 767px) {
+  .search input {
+    width: 100%;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  .weather h1 {
+    font-size: 40px;
+  }
+  .weather h2 {
+    font-size: 25px;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+.weather-icon {
+  margin-top: 10px;
+}
+.humidity, .wind {
+  font-size: 20px;
+}
+}
